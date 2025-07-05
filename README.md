@@ -11,9 +11,26 @@
 
 ## 📸 Preview
 
-![Homepage Screenshot](https://via.placeholder.com/800x300.png?text=Homepage+Screenshot)
-![Quiz Screenshot](https://via.placeholder.com/800x300.png?text=Quiz+Page)
-![Result Screenshot](https://via.placeholder.com/800x300.png?text=Result+Page)
+### 📌 Models Screenshot
+![Models](screenshots/01-models.png)
+
+### 📌 Admin File
+![Admin File](screenshots/02-admin-file.png)
+
+### 📌 Admin Panel
+![Admin Site](screenshots/03-admin-site.png)
+
+### 📌 Course Details Template
+![Course Details](screenshots/04-course-details.png)
+
+### 📌 Views File
+![Views](screenshots/05-views.png)
+
+### 📌 URL Configuration
+![URLs](screenshots/06-urls.png)
+
+### 📌 Exam Result Page
+![Final Result](screenshots/07-final.png)
 
 ---
 
@@ -116,14 +133,14 @@ Log in using your superuser credentials
 Add new Courses, Questions, Choices, and Submissions
 
 🔍 App Navigation
-Page	URL	Description
-Home	http://127.0.0.1:8000/	Homepage with link to quizzes
-Login	/login/	Login page
-Logout	/logout/	Logs out the user
-Admin Panel	/admin/	Manage courses, questions, submissions
-Course Quiz	/1/	Quiz page for course with ID = 1
-Submit Exam	/1/submit/	Submits answers
-Result View	/1/submission/1/result/	Displays result for submission
+Page	URL	Description  
+Home	http://127.0.0.1:8000/	Homepage with link to quizzes  
+Login	/login/	Login page  
+Logout	/logout/	Logs out the user  
+Admin Panel	/admin/	Manage courses, questions, submissions  
+Course Quiz	/1/	Quiz page for course with ID = 1  
+Submit Exam	/1/submit/	Submits answers  
+Result View	/1/submission/1/result/	Displays result for submission  
 
 
  ## 📌 Notes
