@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+  <div class="card shadow-lg">
+    <div class="card-header bg-success text-white text-center">
+      <h2>🎓 Exam Result - {{ course.name }}</h2>
+    </div>
+    <div class="card-body text-center">
+      <h4 class="mb-4">Your Score:</h4>
+      <h1 class="display-3 text-primary">{{ score }} / {{ total }}</h1>
+
+      {% if score >= total|divisibleby:2 %}
+        <p class="text-success mt-3">Great job! 🎉 You passed the exam.</p>
+      {% else %}
+        <p class="text-danger mt-3">Keep practicing! 💪 Try again to improve your score.</p>
+      {% endif %}
+
+      <a href="{% url 'course_details' course.id %}" class="btn btn-outline-primary mt-4">📝 Retake Exam</a>
+    </div>
+  </div>
+</div>
+{% endblock %}

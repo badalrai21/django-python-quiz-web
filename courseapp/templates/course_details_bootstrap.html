@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+  <h2>{{ course.name }}</h2>
+  <p>{{ course.description }}</p>
+
+  <form method="post" action="{% url 'submit_exam' course.id %}">
+    {% csrf_token %}
+    {% for question in course.question_set.all %}
+      <div class="card mb-3">
+        <div class="card-header">
+          <strong>Q{{ forloop.counter }}:</strong> {{ question.question_text }}
+        </div>
+        <ul class="list-group list-group-flush">
+          {% for choice in question.choice_set.all %}
+            <li class="list-group-item">
+              <input type="checkbox" name="choice" value="{{ choice.id }}">
+              {{ choice.choice_text }}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
+    <button type="submit" class="btn btn-primary">Submit Exam</button>
+  </form>
+</div>
+{% endblock %}
