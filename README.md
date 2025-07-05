@@ -1,24 +1,42 @@
-# 🧠 Online Quiz Bees 🐝
+# 🐝 Online Quiz Bees – Django Web App
 
-An interactive Django-based quiz application that allows users to **log in**, **take quizzes**, and **view exam results** — all built with Python, Django, and Bootstrap.
+![License](https://img.shields.io/badge/license-MIT-green)
+![Django](https://img.shields.io/badge/Django-5.2.4-darkgreen?logo=django)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3.0-blueviolet?logo=bootstrap)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
----
-
-## 🚀 Features
-
-- 🔐 User login & logout
-- 🎓 Course detail view with quiz questions
-- ✅ Submit answers and get results instantly
-- 📊 Auto-scored submissions
-- 🛠️ Admin panel for managing courses, questions, and choices
+> A fully functional web-based quiz platform built with **Django** and **Bootstrap**. Users can log in, take quizzes, submit answers, and view results.
 
 ---
 
-## 📸 Screenshots
+## 📸 Preview
 
-| Login Page | Course Page | Result Page |
-|------------|-------------|-------------|
-| ![Login](screenshots/login.png) | ![Course](screenshots/course.png) | ![Result](screenshots/result.png) |
+![Homepage Screenshot](https://via.placeholder.com/800x300.png?text=Homepage+Screenshot)
+![Quiz Screenshot](https://via.placeholder.com/800x300.png?text=Quiz+Page)
+![Result Screenshot](https://via.placeholder.com/800x300.png?text=Result+Page)
+
+---
+
+## 📚 Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Running the App](#running-the-app)
+- [Pages and URLs](#pages-and-urls)
+- [Admin Access](#admin-access)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+## ✨ Features
+
+- 🏠 Homepage with quiz overview
+- ✅ Authentication with login/logout
+- 📝 Dynamic quiz with questions and multiple choices
+- 📊 Auto-scoring with result summary
+- 🧠 Admin panel to manage questions and answers
 
 ---
 
@@ -86,6 +104,17 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
+### 🔒 Admin Access
+To access the admin dashboard:
+
+Start the server: python manage.py runserver
+
+Open http://127.0.0.1:8000/admin/
+
+Log in using your superuser credentials
+
+Add new Courses, Questions, Choices, and Submissions
+
 🔍 App Navigation
 Page	URL	Description
 Home	http://127.0.0.1:8000/	Homepage with link to quizzes
@@ -109,8 +138,8 @@ Homepage lists available courses dynamically
 ## 🛡️ License
 This project is licensed under the MIT License.
 
-## 👨‍💻 Author
- Badal Kumar Rai
+## 👨‍💻 Author 🙋‍♂️
+ Made with ❤️ by Badal Kumar Rai
  GitHub: [@badalrai21](https://github.com/badalrai21).
  LinekdIn: [@BadalRai](https://www.linkedin.com/in/badal-rai)    
  Discord: Join our Discord Server [@NO2](https://discord.gg/Dnw4ZjEg)    
