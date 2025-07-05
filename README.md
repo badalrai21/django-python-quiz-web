@@ -132,14 +132,21 @@ Log in using your superuser credentials
 
 Add new Courses, Questions, Choices, and Submissions
 
-🔍 App Navigation
-Page	URL	Description  
+### 🔍 App Navigation
+Page	URL	Description .
+
 Home	http://127.0.0.1:8000/	Homepage with link to quizzes  
+
 Login	/login/	Login page  
+
 Logout	/logout/	Logs out the user  
+
 Admin Panel	/admin/	Manage courses, questions, submissions  
+
 Course Quiz	/1/	Quiz page for course with ID = 1  
+
 Submit Exam	/1/submit/	Submits answers  
+
 Result View	/1/submission/1/result/	Displays result for submission  
 
 
@@ -156,8 +163,8 @@ Homepage lists available courses dynamically
 This project is licensed under the MIT License.
 
 ## 👨‍💻 Author 🙋‍♂️
- Made with ❤️ by Badal Kumar Rai
- GitHub: [@badalrai21](https://github.com/badalrai21).
- LinekdIn: [@BadalRai](https://www.linkedin.com/in/badal-rai)    
- Discord: Join our Discord Server [@NO2](https://discord.gg/Dnw4ZjEg)    
+ Made with ❤️ by Badal Kumar Rai  
+ GitHub: [@badalrai21](https://github.com/badalrai21).  
+ LinekdIn: [@BadalRai](https://www.linkedin.com/in/badal-rai).  
+ Discord: Join our Discord Server [@NO2](https://discord.gg/Dnw4ZjEg).      
 
